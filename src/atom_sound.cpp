@@ -89,7 +89,7 @@ void MP4SoundAtom::Generate()
     ((MP4BytesProperty*)m_pProperties[3])->
     SetValue(reserved2, sizeof(reserved2));
     m_pProperties[3]->SetReadOnly(true);
-    ((MP4Integer16Property*)m_pProperties[4])->SetValue(2);
+    ((MP4Integer16Property*)m_pProperties[4])->SetValue(1);
     ((MP4Integer16Property*)m_pProperties[5])->SetValue(0x0010);
     ((MP4Integer16Property*)m_pProperties[6])->SetValue(0);
 
